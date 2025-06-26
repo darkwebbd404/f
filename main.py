@@ -1869,7 +1869,7 @@ def restart_connection():
         print("🔄 إعادة الاتصال...")
         clients.close()
         time.sleep(0.5)  # انتظار 3 ثوانٍ قبل المحاولة مجددًا
-        client = FF_CLIENT(id="3987815200", password="B17E6BB8C9046D75DE76146FD7730470BB94AE42EA37D40D5C22313689E874F6")
+        client = FF_CLIENT(id="3997425651", password="19026B0D27D82F0FFCD57EB6EFBF012944C3FE357DC7E0CC32EE68D966633674")
         client.start()
     except Exception as e:
         print(f"⚠️ خطأ أثناء إعادة الاتصال: {e}")    
@@ -1896,7 +1896,7 @@ for thread in threads:
     
 if __name__ == "__main__":
     try:
-        client_thread = FF_CLIENT(id="3905260497", password="63EADC0350C4B17A353017BD9F4E770220656301BF1C63CED1712A80CAB954FC")
+        client_thread = FF_CLIENT(id="3997425651", password="19026B0D27D82F0FFCD57EB6EFBF012944C3FE357DC7E0CC32EE68D966633674")
         client_thread.start()
     except Exception as e:
         logging.error(f"Error occurred: {e}")
