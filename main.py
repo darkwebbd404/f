@@ -987,7 +987,7 @@ class FF_CLIENT(threading.Thread):
         clients.connect((host, port))
         clients.send(bytes.fromhex(tok))
         thread = threading.Thread(
-            target=self.sockf1, args=(tok, "103.108.103.31", 39699, "anything", key, iv)
+            target=self.sockf1, args=(tok, "202.81.106.90", 39699, "anything", key, iv)
         )
         threads.append(thread)
         thread.start()
